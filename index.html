@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MixERP User Guide</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+    <style>
+      article img {
+        border: 2px solid #eee;
+      }
+
+      article table td:first-child {
+        min-width: 120px;
+      }
+
+      .app-name img {
+        margin-left: 0.32rem;
+        filter: grayscale(1);
+        width: 128px;
+        height: auto;
+      }
+
+      .black.and.white {
+        filter: grayscale(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script>
+    window.$docsify = {
+      name: "MixERP",
+      repo: "https://github.com/binodnp/mixerpdocs",
+      logo: "https://mixerp.org/logo.svg",
+      loadSidebar: true,
+      alias: {
+        "/.*/_sidebar.md": "/_sidebar.md"
+      },
+      subMaxLevel: 2,
+      pagination: {},
+      editLink: {
+        text: "Edit this document",
+        repo: "https://github.com/binodnp/mixerpdocs/edit/master/",
+        // repo: 'https://github.com/cyrilf/docsify-edit-link/edit/master/docs/',
+        cssClass: "docsify-edit-link m-0"
+      }
+    };
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-m-pagination"></script>
+  <script src="//unpkg.com/docsify-edit-link@1"></script>
+</html>
